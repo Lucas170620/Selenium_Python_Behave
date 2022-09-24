@@ -1,0 +1,61 @@
+<testsuite name="CompraAmazon.Comprar produto na Amazon" tests="4" errors="0" failures="1" skipped="0" time="53.391496" timestamp="2022-09-23T16:10:07.646774" hostname="IBM-PF3R48XC"><testcase classname="CompraAmazon.Comprar produto na Amazon" name="comprar Hunter X Hunter - Volume 11 a partir da busca -- @1.1 " status="passed" time="20.22949"><system-out>
+<![CDATA[
+@scenario.begin
+  Esquema do Cenário: comprar Hunter X Hunter - Volume 11 a partir da busca -- @1.1 
+    Dado que acesso o site da amazon ... passed in 7.807s
+    Quando busco por hunter x hunter e pressiono Enter ... passed in 6.695s
+    Então exibe uma lista de produtos relacionados com hunter x hunter ... passed in 0.731s
+    Quando escolho Hunter X Hunter - Volume 11 ... passed in 4.732s
+    Então aparece Hunter X Hunter - Volume 11 no valor de R$ 23,90 ... passed in 0.265s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="CompraAmazon.Comprar produto na Amazon" name="comprar Slam Dunk Vol. 4 a partir da busca -- @1.2 " status="passed" time="11.925289"><system-out>
+<![CDATA[
+@scenario.begin
+  Esquema do Cenário: comprar Slam Dunk Vol. 4 a partir da busca -- @1.2 
+    Dado que acesso o site da amazon ... passed in 2.609s
+    Quando busco por slam dunk e pressiono Enter ... passed in 4.797s
+    Então exibe uma lista de produtos relacionados com slam dunk ... passed in 0.120s
+    Quando escolho Slam Dunk Vol. 4 ... passed in 3.440s
+    Então aparece Slam Dunk Vol. 4 no valor de R$ 22,90 ... passed in 0.959s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="CompraAmazon.Comprar produto na Amazon" name="comprar O menino do pijama listrado a partir da busca -- @1.3 " status="failed" time="11.967887"><failure type="AssertionError" message="&#10;preco esperado: R$ 29,94 &#10;preco recebido: R$ 31,43&#10;">
+<![CDATA[
+Failing step: Então aparece O menino do pijama listrado no valor de R$ 29,94 ... failed in 0.211s
+Location: features/CompraAmazon.feature:9
+Assertion Failed: 
+preco esperado: R$ 29,94 
+preco recebido: R$ 31,43
+]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Esquema do Cenário: comprar O menino do pijama listrado a partir da busca -- @1.3 
+    Dado que acesso o site da amazon ... passed in 2.564s
+    Quando busco por o menino do pijama listrado e pressiono Enter ... passed in 5.059s
+    Então exibe uma lista de produtos relacionados com o menino do pijama listrado ... passed in 0.087s
+    Quando escolho O menino do pijama listrado ... passed in 4.047s
+    Então aparece O menino do pijama listrado no valor de R$ 29,94 ... failed in 0.211s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="CompraAmazon.Comprar produto na Amazon" name="comprar Código limpo: Habilidades práticas do Agile Software a partir da busca -- @1.4 " status="passed" time="9.26883"><system-out>
+<![CDATA[
+@scenario.begin
+  Esquema do Cenário: comprar Código limpo: Habilidades práticas do Agile Software a partir da busca -- @1.4 
+    Dado que acesso o site da amazon ... passed in 1.970s
+    Quando busco por clean code e pressiono Enter ... passed in 3.983s
+    Então exibe uma lista de produtos relacionados com clean code ... passed in 0.095s
+    Quando escolho Código limpo: Habilidades práticas do Agile Software ... passed in 3.061s
+    Então aparece Código limpo: Habilidades práticas do Agile Software no valor de R$ 70,99 ... passed in 0.160s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
